@@ -1,6 +1,6 @@
 ##1. Dependencies should be installed using the following command before training:
 
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 
 
 ##2. Data description:
@@ -35,17 +35,17 @@
 
 ##3. Here are commands for training the model on NYC Taxi.
 
-   python train.py
+   `python train.py`
 
 
 ##4. Evaluation.
 
-   python eval.py --checkpoints ./nyc/checkpoints
+   `python eval.py --checkpoints ./nyc/checkpoints`
 
 ##5. Explainer.
 
-   For current explanations: python exp.py --task 0
-   For historical explanations: python exp.py --task 1
+   For current explanations: `python exp.py --task 0`
+   For historical explanations: `python exp.py --task 1`
 
 
 Copyright (c) 2021 xxx. All Rights Reserved.
